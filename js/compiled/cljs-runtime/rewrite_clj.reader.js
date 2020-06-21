@@ -17,14 +17,14 @@ rewrite_clj.reader.read_string = cljs.tools.reader.read_string;
  */
 rewrite_clj.reader.throw_reader = (function rewrite_clj$reader$throw_reader(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___59364 = arguments.length;
-var i__4790__auto___59365 = (0);
+var len__4789__auto___49620 = arguments.length;
+var i__4790__auto___49621 = (0);
 while(true){
-if((i__4790__auto___59365 < len__4789__auto___59364)){
-args__4795__auto__.push((arguments[i__4790__auto___59365]));
+if((i__4790__auto___49621 < len__4789__auto___49620)){
+args__4795__auto__.push((arguments[i__4790__auto___49621]));
 
-var G__59368 = (i__4790__auto___59365 + (1));
-i__4790__auto___59365 = G__59368;
+var G__49622 = (i__4790__auto___49621 + (1));
+i__4790__auto___49621 = G__49622;
 continue;
 } else {
 }
@@ -44,13 +44,13 @@ throw (new Error([cljs.core.str.cljs$core$IFn$_invoke$arity$1(data),cljs.core.st
 (rewrite_clj.reader.throw_reader.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(rewrite_clj.reader.throw_reader.cljs$lang$applyTo = (function (seq59344){
-var G__59345 = cljs.core.first(seq59344);
-var seq59344__$1 = cljs.core.next(seq59344);
-var G__59346 = cljs.core.first(seq59344__$1);
-var seq59344__$2 = cljs.core.next(seq59344__$1);
+(rewrite_clj.reader.throw_reader.cljs$lang$applyTo = (function (seq49545){
+var G__49546 = cljs.core.first(seq49545);
+var seq49545__$1 = cljs.core.next(seq49545);
+var G__49547 = cljs.core.first(seq49545__$1);
+var seq49545__$2 = cljs.core.next(seq49545__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__59345,G__59346,seq59344__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__49546,G__49547,seq49545__$2);
 }));
 
 /**
@@ -86,8 +86,8 @@ rewrite_clj.reader.buf = (new goog.string.StringBuffer(""));
  *   the unmatching char.
  */
 rewrite_clj.reader.read_while = (function rewrite_clj$reader$read_while(var_args){
-var G__59352 = arguments.length;
-switch (G__59352) {
+var G__49553 = arguments.length;
+switch (G__49553) {
 case 2:
 return rewrite_clj.reader.read_while.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -146,8 +146,8 @@ return rewrite_clj.reader.read_while.cljs$core$IFn$_invoke$arity$3(reader,cljs.c
  * Read until linebreak and include it.
  */
 rewrite_clj.reader.read_include_linebreak = (function rewrite_clj$reader$read_include_linebreak(reader){
-return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(rewrite_clj.reader.read_until(reader,(function (p1__59354_SHARP_){
-return (((p1__59354_SHARP_ == null)) || (rewrite_clj.reader.linebreak_QMARK_(p1__59354_SHARP_)));
+return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(rewrite_clj.reader.read_until(reader,(function (p1__49555_SHARP_){
+return (((p1__49555_SHARP_ == null)) || (rewrite_clj.reader.linebreak_QMARK_(p1__49555_SHARP_)));
 }))),cljs.core.str.cljs$core$IFn$_invoke$arity$1((rewrite_clj.reader.read_char.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.reader.read_char.cljs$core$IFn$_invoke$arity$1(reader) : rewrite_clj.reader.read_char.call(null,reader)))].join('');
 });
 /**
@@ -222,10 +222,10 @@ if((c < n)){
 var temp__5733__auto__ = (read_fn.cljs$core$IFn$_invoke$arity$1 ? read_fn.cljs$core$IFn$_invoke$arity$1(reader) : read_fn.call(null,reader));
 if(cljs.core.truth_(temp__5733__auto__)){
 var v = temp__5733__auto__;
-var G__59391 = (cljs.core.truth_((p_QMARK_.cljs$core$IFn$_invoke$arity$1 ? p_QMARK_.cljs$core$IFn$_invoke$arity$1(v) : p_QMARK_.call(null,v)))?(c + (1)):c);
-var G__59392 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(vs,v);
-c = G__59391;
-vs = G__59392;
+var G__49672 = (cljs.core.truth_((p_QMARK_.cljs$core$IFn$_invoke$arity$1 ? p_QMARK_.cljs$core$IFn$_invoke$arity$1(v) : p_QMARK_.call(null,v)))?(c + (1)):c);
+var G__49673 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(vs,v);
+c = G__49672;
+vs = G__49673;
 continue;
 } else {
 return rewrite_clj.reader.throw_reader.cljs$core$IFn$_invoke$arity$variadic(reader,"%s node expects %d value%s.",cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([node_tag,n,((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(n,(1)))?"":"s")], 0));
