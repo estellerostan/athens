@@ -1,20 +1,9 @@
 
+shadow.cljs.devtools.client.env.module_loaded('app');
+
 athens.core.init();;
 SHADOW_ENV.setLoaded("athens.coeffects.js");
 SHADOW_ENV.setLoaded("athens.config.js");
-SHADOW_ENV.setLoaded("goog.net.eventtype.js");
-SHADOW_ENV.setLoaded("goog.net.errorcode.js");
-SHADOW_ENV.setLoaded("goog.json.hybrid.js");
-SHADOW_ENV.setLoaded("goog.debug.logrecord.js");
-SHADOW_ENV.setLoaded("goog.debug.logbuffer.js");
-SHADOW_ENV.setLoaded("goog.debug.logger.js");
-SHADOW_ENV.setLoaded("goog.log.log.js");
-SHADOW_ENV.setLoaded("goog.net.httpstatus.js");
-SHADOW_ENV.setLoaded("goog.net.xhrlike.js");
-SHADOW_ENV.setLoaded("goog.net.xmlhttpfactory.js");
-SHADOW_ENV.setLoaded("goog.net.wrapperxmlhttpfactory.js");
-SHADOW_ENV.setLoaded("goog.net.xmlhttp.js");
-SHADOW_ENV.setLoaded("goog.net.xhrio.js");
 SHADOW_ENV.setLoaded("goog.mochikit.async.deferred.js");
 SHADOW_ENV.setLoaded("goog.net.jsloader.js");
 SHADOW_ENV.setLoaded("goog.net.jsonp.js");
@@ -44,7 +33,6 @@ SHADOW_ENV.setLoaded("cljs.env.js");
 SHADOW_ENV.setLoaded("cljs.tagged_literals.js");
 SHADOW_ENV.setLoaded("cljs.analyzer.js");
 SHADOW_ENV.setLoaded("cljs.analyzer.api.js");
-SHADOW_ENV.setLoaded("cljs.repl.js");
 SHADOW_ENV.setLoaded("debux.common.util.js");
 SHADOW_ENV.setLoaded("debux.common.macro_specs.js");
 SHADOW_ENV.setLoaded("day8.re_frame.tracing.js");
@@ -5838,7 +5826,6 @@ SHADOW_ENV.setLoaded("sci.impl.namespaces.js");
 SHADOW_ENV.setLoaded("sci.impl.opts.js");
 SHADOW_ENV.setLoaded("sci.impl.interpreter.js");
 SHADOW_ENV.setLoaded("sci.core.js");
-SHADOW_ENV.setLoaded("shadow.cljs.devtools.client.env.js");
 SHADOW_ENV.setLoaded("shadow.remote.runtime.api.js");
 SHADOW_ENV.setLoaded("shadow.remote.runtime.writer.js");
 SHADOW_ENV.setLoaded("shadow.remote.runtime.shared.js");
