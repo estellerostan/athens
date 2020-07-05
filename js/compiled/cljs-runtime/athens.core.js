@@ -1,8 +1,12 @@
 goog.provide('athens.core');
 goog.require('cljs.core');
+goog.require('athens.coeffects');
 goog.require('athens.config');
+goog.require('athens.effects');
 goog.require('athens.events');
+goog.require('athens.listeners');
 goog.require('athens.router');
+goog.require('athens.style');
 goog.require('athens.subs');
 goog.require('athens.views');
 goog.require('re_frame.core');
@@ -23,14 +27,17 @@ athens.router.init_routes_BANG_();
 return reagent.core.render.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.main_panel], null),document.getElementById("app"));
 });
 athens.core.init = (function athens$core$init(){
+stylefy.core.tag("body",athens.style.app_styles);
+
 stylefy.core.init.cljs$core$IFn$_invoke$arity$0();
 
-var G__56836_56838 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"init-rfdb","init-rfdb",-460710127)], null);
-(re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1(G__56836_56838) : re_frame.core.dispatch_sync.call(null,G__56836_56838));
+athens.listeners.init();
 
-var G__56837_56839 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"boot","boot",2007860585)], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__56837_56839) : re_frame.core.dispatch.call(null,G__56837_56839));
+var G__61005_61007 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"init-rfdb","init-rfdb",-460710127)], null);
+(re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1(G__61005_61007) : re_frame.core.dispatch_sync.call(null,G__61005_61007));
 
+var G__61006_61008 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"clear-loading","clear-loading",-1208278228)], null);
+(re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1(G__61006_61008) : re_frame.core.dispatch_sync.call(null,G__61006_61008));
 
 athens.core.dev_setup();
 
