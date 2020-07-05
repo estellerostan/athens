@@ -187,14 +187,14 @@ var v_66765 = cljs.core.first(seq__66632_66759__$1);
 cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,v_66765);
 
 
-var G__66766 = cljs.core.next(seq__66632_66759__$1);
-var G__66767 = null;
-var G__66768 = (0);
+var G__66767 = cljs.core.next(seq__66632_66759__$1);
+var G__66768 = null;
 var G__66769 = (0);
-seq__66632_66749 = G__66766;
-chunk__66633_66750 = G__66767;
-count__66634_66751 = G__66768;
-i__66635_66752 = G__66769;
+var G__66770 = (0);
+seq__66632_66749 = G__66767;
+chunk__66633_66750 = G__66768;
+count__66634_66751 = G__66769;
+i__66635_66752 = G__66770;
 continue;
 }
 } else {
@@ -203,17 +203,17 @@ continue;
 break;
 }
 
-var G__66770 = vals;
-vals = G__66770;
-continue;
-} else {
-if(edamame.impl.parser.non_match_QMARK_(next_val)){
 var G__66771 = vals;
 vals = G__66771;
 continue;
 } else {
-var G__66772 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,next_val);
+if(edamame.impl.parser.non_match_QMARK_(next_val)){
+var G__66772 = vals;
 vals = G__66772;
+continue;
+} else {
+var G__66773 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,next_val);
+vals = G__66773;
 continue;
 
 }

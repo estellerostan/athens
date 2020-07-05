@@ -36,14 +36,14 @@ return null;
 }
 });
 var G__52030_52058 = new cljs.core.Keyword(null,"forward-events","forward-events",1216790539);
-var G__52031_52059 = (function (){var process_one_entry = (function (p__52032){
-var map__52033 = p__52032;
-var map__52033__$1 = (((((!((map__52033 == null))))?(((((map__52033.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__52033.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__52033):map__52033);
-var m = map__52033__$1;
-var unregister = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52033__$1,new cljs.core.Keyword(null,"unregister","unregister",2105339971));
-var register = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52033__$1,new cljs.core.Keyword(null,"register","register",1968522516));
-var events = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52033__$1,new cljs.core.Keyword(null,"events","events",1792552201));
-var dispatch_to = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52033__$1,new cljs.core.Keyword(null,"dispatch-to","dispatch-to",-354764401));
+var G__52031_52059 = (function (){var process_one_entry = (function (p__52036){
+var map__52037 = p__52036;
+var map__52037__$1 = (((((!((map__52037 == null))))?(((((map__52037.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__52037.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__52037):map__52037);
+var m = map__52037__$1;
+var unregister = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52037__$1,new cljs.core.Keyword(null,"unregister","unregister",2105339971));
+var register = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52037__$1,new cljs.core.Keyword(null,"register","register",1968522516));
+var events = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52037__$1,new cljs.core.Keyword(null,"events","events",1792552201));
+var dispatch_to = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52037__$1,new cljs.core.Keyword(null,"dispatch-to","dispatch-to",-354764401));
 var _ = ((cljs.core.map_QMARK_(m))?null:(function(){throw (new Error(["Assert failed: ",["re-frame: effects handler for :forward-events expected a map or a list of maps. Got: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(m)].join(''),"\n","(map? m)"].join('')))})());
 var ___$1 = ((((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"unregister","unregister",2105339971),null], null), null),cljs.core.set(cljs.core.keys(m)))) || (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"events","events",1792552201),null,new cljs.core.Keyword(null,"dispatch-to","dispatch-to",-354764401),null,new cljs.core.Keyword(null,"register","register",1968522516),null], null), null),cljs.core.set(cljs.core.keys(m))))))?null:(function(){throw (new Error(["Assert failed: ",["re-frame: effects handler for :forward-events given wrong map keys",cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.set(cljs.core.keys(m)))].join(''),"\n","(or (= #{:unregister} (-> m keys set)) (= #{:events :dispatch-to :register} (-> m keys set)))"].join('')))})());
 if(cljs.core.truth_(unregister)){

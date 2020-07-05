@@ -44,9 +44,9 @@ return this__4439__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__4440__au
 (rewrite_clj.node.comment.CommentNode.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4441__auto__,k29834,else__4442__auto__){
 var self__ = this;
 var this__4441__auto____$1 = this;
-var G__29839 = k29834;
-var G__29839__$1 = (((G__29839 instanceof cljs.core.Keyword))?G__29839.fqn:null);
-switch (G__29839__$1) {
+var G__29838 = k29834;
+var G__29838__$1 = (((G__29838 instanceof cljs.core.Keyword))?G__29838.fqn:null);
+switch (G__29838__$1) {
 case "s":
 return self__.s;
 

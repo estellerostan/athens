@@ -1186,12 +1186,12 @@ from = G__56779;
 to = G__56780;
 continue;
 } else {
-var G__56782 = cljs.core.concat.cljs$core$IFn$_invoke$arity$variadic(ss,_static(from,to),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([_wild(to,to_SINGLEQUOTE_)], 0));
-var G__56783 = cljs.core.long$((to_SINGLEQUOTE_ + (1)));
-var G__56784 = cljs.core.long$((to_SINGLEQUOTE_ + (1)));
-ss = G__56782;
-from = G__56783;
-to = G__56784;
+var G__56786 = cljs.core.concat.cljs$core$IFn$_invoke$arity$variadic(ss,_static(from,to),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([_wild(to,to_SINGLEQUOTE_)], 0));
+var G__56787 = cljs.core.long$((to_SINGLEQUOTE_ + (1)));
+var G__56788 = cljs.core.long$((to_SINGLEQUOTE_ + (1)));
+ss = G__56786;
+from = G__56787;
+to = G__56788;
 continue;
 }
 } else {
@@ -1210,12 +1210,12 @@ return cljs.core.count(s);
 }
 })();
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((1),(to_SINGLEQUOTE_ - to))){
-var G__56793 = ss;
-var G__56794 = from;
-var G__56795 = (to + (1));
-ss = G__56793;
-from = G__56794;
-to = G__56795;
+var G__56794 = ss;
+var G__56795 = from;
+var G__56796 = (to + (1));
+ss = G__56794;
+from = G__56795;
+to = G__56796;
 continue;
 } else {
 var G__56797 = cljs.core.concat.cljs$core$IFn$_invoke$arity$variadic(ss,_static(from,to),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([_wild(to,to_SINGLEQUOTE_)], 0));
@@ -1666,8 +1666,8 @@ if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(j,self__.size)){
 return reitit.trie.match(self__.matcher,(i + self__.size),max,p);
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.get.cljs$core$IFn$_invoke$arity$2(p,(i + j)),cljs.core.get.cljs$core$IFn$_invoke$arity$2(self__.path,j))){
-var G__56941 = (j + (1));
-j = G__56941;
+var G__56942 = (j + (1));
+j = G__56942;
 continue;
 } else {
 return null;
@@ -1790,16 +1790,16 @@ if(cljs.core.truth_((function (){var G__56553 = "%";
 var G__56554 = expr__56551;
 return (pred__56550.cljs$core$IFn$_invoke$arity$2 ? pred__56550.cljs$core$IFn$_invoke$arity$2(G__56553,G__56554) : pred__56550.call(null,G__56553,G__56554));
 })())){
-var G__57004 = true;
-var G__57005 = (j + (1));
-percent_QMARK_ = G__57004;
-j = G__57005;
+var G__57009 = true;
+var G__57010 = (j + (1));
+percent_QMARK_ = G__57009;
+j = G__57010;
 continue;
 } else {
-var G__57006 = percent_QMARK_;
-var G__57007 = (j + (1));
-percent_QMARK_ = G__57006;
-j = G__57007;
+var G__57011 = percent_QMARK_;
+var G__57012 = (j + (1));
+percent_QMARK_ = G__57011;
+j = G__57012;
 continue;
 }
 }
@@ -1991,8 +1991,8 @@ var or__4185__auto__ = reitit.trie.match(cljs.core.get.cljs$core$IFn$_invoke$ari
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
 } else {
-var G__57057 = (j + (1));
-j = G__57057;
+var G__57058 = (j + (1));
+j = G__57058;
 continue;
 }
 } else {
@@ -2237,8 +2237,8 @@ var p = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56584,(0),null);
 var c = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56584,(1),null);
 cljs.core.chunk_append(b__56583,reitit.trie.static_matcher(compiler,p,reitit.trie.compile.cljs$core$IFn$_invoke$arity$3(c,compiler,cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cp,p))));
 
-var G__57095 = (i__56582 + (1));
-i__56582 = G__57095;
+var G__57105 = (i__56582 + (1));
+i__56582 = G__57105;
 continue;
 } else {
 return true;
@@ -2290,8 +2290,8 @@ return reitit.trie.wild_matcher(compiler,pv,cljs.core.ffirst(ends__$1),reitit.tr
 }
 })());
 
-var G__57120 = (i__56592 + (1));
-i__56592 = G__57120;
+var G__57133 = (i__56592 + (1));
+i__56592 = G__57133;
 continue;
 } else {
 return true;
@@ -2343,8 +2343,8 @@ var p = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56604,(0),null);
 var c = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56604,(1),null);
 cljs.core.chunk_append(b__56603,reitit.trie.catch_all_matcher(compiler,new cljs.core.Keyword(null,"value","value",305978217).cljs$core$IFn$_invoke$arity$1(p),params,new cljs.core.Keyword(null,"data","data",-232669377).cljs$core$IFn$_invoke$arity$1(c)));
 
-var G__57139 = (i__56602 + (1));
-i__56602 = G__57139;
+var G__57147 = (i__56602 + (1));
+i__56602 = G__57147;
 continue;
 } else {
 return true;
